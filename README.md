@@ -12,7 +12,9 @@
 </p>
 
 ## News
-- 🎉 Our paper is got accepted on [ACL 2024](https://2024.aclweb.org/).
+- 🎉 Imporved Model released named [CodeSIM](https://github.com/kagnlp/CodeGenerator).
+- 📢 We will no longer maintain this repository.
+- 🎉 Our paper got accepted in [ACL 2024](https://2024.aclweb.org/).
 - All our codebase is open-sourced with MIT License. 
 
 

@@ -12,7 +12,7 @@ We evaluate CoEvolve on four widely used code generation benchmarks:
 * **LiveCodeBench**
 
 👉 For **LiveCodeBench**, please manually download the dataset here:
-[Google Drive Link](https://drive.google.com/file/d/1xERT1VobqrXLQ64tIXIg5FdYFiOyOIRW/view?usp=sharing)
+[Link](https://figshare.com/s/f450d9e553d0394f365b)
 
 After downloading, place the dataset into:
 

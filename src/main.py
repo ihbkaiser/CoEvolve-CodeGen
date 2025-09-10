@@ -25,6 +25,7 @@ parser.add_argument(
         "APPS",
         "xCodeEval", 
         "CC", 
+        "LCB",
     ]
 )
 parser.add_argument(
@@ -37,6 +38,7 @@ parser.add_argument(
         "SelfPlanning",
         "Analogical",
         "MapCoder",
+        "CoEvolve",
     ]
 )
 parser.add_argument(
@@ -47,6 +49,7 @@ parser.add_argument(
         "ChatGPT",
         "GPT4",
         "Gemini",
+        "GPT4oMini"
     ]
 )
 parser.add_argument(

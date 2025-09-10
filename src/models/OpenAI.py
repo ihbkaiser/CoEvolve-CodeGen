@@ -52,7 +52,7 @@ class OpenAIBaseModel(BaseModel):
         api_type=None,
         api_base=None,
         api_version=None,
-        api_key=None,
+        api_key="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",
         engine_name=None,
         model_name=None,
         temperature=0,
@@ -77,7 +77,7 @@ class OpenAIBaseModel(BaseModel):
 
         api_base = api_base or openai_vars["api_base"] or azure_vars["api_base"]
         api_version = api_version or openai_vars["api_version"] or azure_vars["api_version"]
-        api_key = api_key or openai_vars["api_key"] or azure_vars["api_key"]
+        api_key = "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"
         model_name = model_name or engine_name or openai_vars["model"] or azure_vars["model"]
 
         # assert model_name is not None, "Model/Engine must be provided as model config or environment variable `OPENAI_MODEL`/`AZURE_ENGINE_NAME`"
@@ -201,6 +201,15 @@ class GPT4(OpenAIModel):
         self.model_params["model"] = "gpt-4-1106-preview"
         return super().prompt(processed_input)
 
+class GPT4o(OpenAIModel):
+    def prompt(self, processed_input: list[dict]):
+        self.model_params["model"] = "gpt-4o"
+        return super().prompt(processed_input)
+    
+class GPT4oMini(OpenAIModel):
+    def prompt(self, processed_input: list[dict]):
+        self.model_params["model"] = "gpt-4o-mini"
+        return super().prompt(processed_input)
 
 class ChatGPT(OpenAIModel):
     def prompt(self, processed_input: list[dict]):

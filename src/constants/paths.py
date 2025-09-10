@@ -133,3 +133,10 @@ APPS_DATA_PATH = join(
     APPS_DATA_DIR,
     "selected150.jsonl"
 )
+
+# LCB Dataset
+LCB_DATA_PATH = join(
+    "data",
+    "LiveCodeBench",
+    "LCB.jsonl"
+)

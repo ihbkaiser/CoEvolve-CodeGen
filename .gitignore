@@ -7,5 +7,5 @@ __pycache__
 samples/*
 desktop.ini
 logs/*
-
+data/LiveCodeBench
 test.ipynb
